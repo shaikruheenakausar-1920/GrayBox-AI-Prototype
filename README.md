@@ -1,96 +1,189 @@
-# Welcome to Your Miaoda Project
-Miaoda Application Link URL
-    URL:https://medo.dev/projects/app-7vxak89ergu9
 
-# Welcome to Your Miaoda Project
+ # 🤖 AI Educational Assistant — Gray-Box AI Friend
 
-## Project Info
+> An intelligent, transparent AI-powered companion designed to help students learn smarter, not harder.  
+> Built as part of my **5th Semester Engineering Project**.
 
-## Project Directory
+---
 
-```
-├── README.md # Documentation
-├── components.json # Component library configuration
-├── eslint.config.js # ESLint configuration
-├── index.html # Entry file
-├── package.json # Package management
-├── postcss.config.js # PostCSS configuration
-├── public # Static resources directory
-│   ├── favicon.png # Icon
-│   └── images # Image resources
-├── src # Source code directory
-│   ├── App.tsx # Entry file
-│   ├── components # Components directory
-│   ├── context # Context directory
-│   ├── db # Database configuration directory
-│   ├── hooks # Common hooks directory
-│   ├── index.css # Global styles
-│   ├── layout # Layout directory
-│   ├── lib # Utility library directory
-│   ├── main.tsx # Entry file
-│   ├── routes.tsx # Routing configuration
-│   ├── pages # Pages directory
-│   ├── services # Database interaction directory
-│   ├── types # Type definitions directory
-├── tsconfig.app.json # TypeScript frontend configuration file
-├── tsconfig.json # TypeScript configuration file
-├── tsconfig.node.json # TypeScript Node.js configuration file
-└── vite.config.ts # Vite configuration file
-```
+## 📌 About the Project
 
-## Tech Stack
+This project is a **Gray-Box AI Educational Assistant** — an AI friend that supports students in their learning journey through intelligent interaction and guidance.
 
-Vite, TypeScript, React, Supabase
+Unlike black-box AI systems where the decision-making is completely hidden, this assistant is built with **transparency and interpretability** in mind — making it more trustworthy and suitable for educational environments.
 
-## Development Guidelines
+Whether a student needs concept explanations, study support, or learning guidance, this AI companion is designed to be approachable, helpful, and educationally focused.
 
-### How to edit code locally?
+---
 
-You can choose [VSCode](https://code.visualstudio.com/Download) or any IDE you prefer. The only requirement is to have Node.js and npm installed.
+## ✨ Key Features
 
-### Environment Requirements
+- 🧠 **AI-powered conversations** tailored for educational use
+- 📚 **Student-friendly interface** — clean and easy to navigate
+- 🔍 **Gray-box approach** — interpretable and transparent AI behavior
+- ⚡ **Fast performance** powered by Vite
+- 🗄️ **Real-time backend** using Supabase
+- 📱 **Responsive design** for all screen sizes
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| **React** | Frontend UI library |
+| **TypeScript** | Type-safe development |
+| **Vite** | Fast build tool & dev server |
+| **Supabase** | Backend, database & authentication |
+| **PostCSS** | CSS processing |
+
+---
+
+## 📁 Project Structure
 
 ```
-# Node.js ≥ 20
-# npm ≥ 10
-Example:
-# node -v   # v20.18.3
-# npm -v    # 10.8.2
+├── README.md                  # Documentation
+├── components.json            # Component library configuration
+├── eslint.config.js           # ESLint configuration
+├── index.html                 # Entry HTML file
+├── package.json               # Package management
+├── postcss.config.js          # PostCSS configuration
+├── vite.config.ts             # Vite configuration
+├── public/                    # Static resources
+│   ├── favicon.png
+│   └── images/
+└── src/                       # Source code
+    ├── App.tsx                # Root component
+    ├── main.tsx               # App entry point
+    ├── routes.tsx             # Routing configuration
+    ├── index.css              # Global styles
+    ├── components/            # Reusable UI components
+    ├── pages/                 # Application pages
+    ├── context/               # Global state management
+    ├── hooks/                 # Custom React hooks
+    ├── services/              # Supabase API interactions
+    ├── db/                    # Database configuration
+    ├── layout/                # Layout components
+    ├── lib/                   # Utility functions
+    └── types/                 # TypeScript type definitions
 ```
 
-### Installing Node.js on Windows
+---
 
-```
-# Step 1: Visit the Node.js official website: https://nodejs.org/, click download. The website will automatically suggest a suitable version (32-bit or 64-bit) for your system.
-# Step 2: Run the installer: Double-click the downloaded installer to run it.
-# Step 3: Complete the installation: Follow the installation wizard to complete the process.
-# Step 4: Verify installation: Open Command Prompt (cmd) or your IDE terminal, and type `node -v` and `npm -v` to check if Node.js and npm are installed correctly.
-```
+## 🚀 Getting Started
 
-### Installing Node.js on macOS
+### ✅ Prerequisites
 
-```
-# Step 1: Using Homebrew (Recommended method): Open Terminal. Type the command `brew install node` and press Enter. If Homebrew is not installed, you need to install it first by running the following command in Terminal:
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-Alternatively, use the official installer: Visit the Node.js official website. Download the macOS .pkg installer. Open the downloaded .pkg file and follow the prompts to complete the installation.
-# Step 2: Verify installation: Open Command Prompt (cmd) or your IDE terminal, and type `node -v` and `npm -v` to check if Node.js and npm are installed correctly.
-```
+Make sure you have the following installed:
 
-### After installation, follow these steps:
+- **Node.js** ≥ 20
+- **npm** ≥ 10
 
-```
-# Step 1: Download the code package
-# Step 2: Extract the code package
-# Step 3: Open the code package with your IDE and navigate into the code directory
-# Step 4: In the IDE terminal, run the command to install dependencies: npm i
-# Step 5: In the IDE terminal, run the command to start the development server: npm run dev -- --host 127.0.0.1
-# Step 6: if step 5 failed, try this command to start the development server: npx vite --host 127.0.0.1
+Verify with:
+```bash
+node -v   # Should show v20.x.x or higher
+npm -v    # Should show 10.x.x or higher
 ```
 
-### How to develop backend services?
+### 📥 Installation
 
-Configure environment variables and install relevant dependencies.If you need to use a database, please use the official version of Supabase.
+**Step 1:** Clone the repository
+```bash
+git clone https://github.com/ruheenakausar2121/YOUR_REPO_NAME.git
+```
 
-## Learn More
+**Step 2:** Navigate into the project directory
+```bash
+cd YOUR_REPO_NAME
+```
 
-You can also check the help documentation: Download and Building the app（ [https://intl.cloud.baidu.com/en/doc/MIAODA/s/download-and-building-the-app-en](https://intl.cloud.baidu.com/en/doc/MIAODA/s/download-and-building-the-app-en)）to learn more detailed content.
+**Step 3:** Install dependencies
+```bash
+npm install
+```
+
+**Step 4:** Start the development server
+```bash
+npm run dev -- --host 127.0.0.1
+```
+
+> If Step 4 fails, try:
+> ```bash
+> npx vite --host 127.0.0.1
+> ```
+
+**Step 5:** Open your browser and visit:
+```
+http://127.0.0.1:5173
+```
+
+---
+
+## ⚙️ Environment Setup
+
+To connect the Supabase backend, create a `.env` file in the root directory:
+
+```env
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+> Get these values from your [Supabase Dashboard](https://supabase.com/dashboard).
+
+---
+
+## 💻 Installing Node.js
+
+<details>
+<summary>🪟 Windows</summary>
+
+1. Visit [nodejs.org](https://nodejs.org/) and download the recommended version
+2. Run the installer and follow the setup wizard
+3. Open Command Prompt and verify: `node -v` and `npm -v`
+
+</details>
+
+<details>
+<summary>🍎 macOS</summary>
+
+Using Homebrew (recommended):
+```bash
+brew install node
+```
+
+Or download the `.pkg` installer from [nodejs.org](https://nodejs.org/) and follow the prompts.
+
+</details>
+
+---
+
+## 🧑‍💻 Developer
+
+**Shaik Ruheena Kausar**  
+Engineering Student — 5th Semester  
+📧 [GitHub Profile](https://github.com/ruheenakausar2121)
+
+---
+
+## 🔗 Live Project
+
+👉 **[View the Live Project here](https://medo.dev/projects/app-7vxak89ergu9)**
+
+---
+
+## 🛠️ Built With Miaoda
+
+This project was built using **[Miaoda](https://intl.cloud.baidu.com/en/doc/MIAODA)** — an AI-powered development platform by Baidu — as part of my **5th Semester Engineering coursework**.
+
+---
+
+## 📄 License
+
+This project is open for educational and personal use.  
+Feel free to fork, learn, and build upon it! ⭐
+
+---
+
+> ⭐ If you found this project helpful or interesting, please consider giving it a star on GitHub!
+
+

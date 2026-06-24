@@ -89,7 +89,7 @@ npm -v    # Should show 10.x.x or higher
 
 **Step 1:** Clone the repository
 ```bash
-git clone https://github.com/ruheenakausar2121/YOUR_REPO_NAME.git
+git clone https://github.com/shaikruheenakausar-1920/YOUR_REPO_NAM.git
 ```
 
 **Step 2:** Navigate into the project directory
@@ -161,7 +161,7 @@ Or download the `.pkg` installer from [nodejs.org](https://nodejs.org/) and foll
 
 **Shaik Ruheena Kausar**  
 Engineering Student — 5th Semester  
-📧 [GitHub Profile](https://github.com/ruheenakausar2121)
+📧 [GitHub Profile](https://github.com/shaikruheenakausar-1920)
 
 ---
 

@@ -173,7 +173,7 @@ Engineering Student — 5th Semester
 
 ## 🛠️ Built With Miaoda
 
-This project was built using **[Miaoda](https://intl.cloud.baidu.com/en/doc/MIAODA)** — an AI-powered development platform by Baidu — as part of my **5th Semester Engineering coursework**.
+This project was built using **[Miaoda] — an AI-powered development platform by Baidu — as part of my **5th Semester Engineering coursework**.
 
 ---
 

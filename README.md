@@ -167,7 +167,7 @@ Engineering Student — 5th Semester
 
 ## 🔗 Live Project
 
-👉 **[View the Live Project here](https://medo.dev/projects/app-7vxak89ergu9)**
+👉 **[View the Live Project here](https://medo.dev/projects/app-7vxak89ergu9/preview)**
 
 ---
 
